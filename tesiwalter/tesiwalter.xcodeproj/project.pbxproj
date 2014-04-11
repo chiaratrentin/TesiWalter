@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3452CE718E049B3003B1D6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3452CE618E049B3003B1D6E /* Cocoa.framework */; };
+		D3452CF118E049B3003B1D6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3452CEF18E049B3003B1D6E /* InfoPlist.strings */; };
+		D3452CF318E049B3003B1D6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3452CF218E049B3003B1D6E /* main.m */; };
+		D3452CF718E049B3003B1D6E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D3452CF518E049B3003B1D6E /* Credits.rtf */; };
+		D3452CFA18E049B3003B1D6E /* TRNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3452CF918E049B3003B1D6E /* TRNAppDelegate.m */; };
+		D3452CFD18E049B3003B1D6E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3452CFB18E049B3003B1D6E /* MainMenu.xib */; };
+		D3452CFF18E049B3003B1D6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3452CFE18E049B3003B1D6E /* Images.xcassets */; };
+		D3452D0618E049B3003B1D6E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3452D0518E049B3003B1D6E /* XCTest.framework */; };
+		D3452D0718E049B3003B1D6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3452CE618E049B3003B1D6E /* Cocoa.framework */; };
+		D3452D0F18E049B3003B1D6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3452D0D18E049B3003B1D6E /* InfoPlist.strings */; };
+		D3452D1118E049B3003B1D6E /* tesiwalterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3452D1018E049B3003B1D6E /* tesiwalterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3452D0818E049B3003B1D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3452CDB18E049B3003B1D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3452CE218E049B3003B1D6E;
+			remoteInfo = tesiwalter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3452CE318E049B3003B1D6E /* tesiwalter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tesiwalter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3452CE618E049B3003B1D6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D3452CE918E049B3003B1D6E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D3452CEA18E049B3003B1D6E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D3452CEB18E049B3003B1D6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3452CEE18E049B3003B1D6E /* tesiwalter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tesiwalter-Info.plist"; sourceTree = "<group>"; };
+		D3452CF018E049B3003B1D6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3452CF218E049B3003B1D6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3452CF418E049B3003B1D6E /* tesiwalter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tesiwalter-Prefix.pch"; sourceTree = "<group>"; };
+		D3452CF618E049B3003B1D6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D3452CF818E049B3003B1D6E /* TRNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRNAppDelegate.h; sourceTree = "<group>"; };
+		D3452CF918E049B3003B1D6E /* TRNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRNAppDelegate.m; sourceTree = "<group>"; };
+		D3452CFC18E049B3003B1D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D3452CFE18E049B3003B1D6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3452D0418E049B3003B1D6E /* tesiwalterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tesiwalterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3452D0518E049B3003B1D6E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D3452D0C18E049B3003B1D6E /* tesiwalterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tesiwalterTests-Info.plist"; sourceTree = "<group>"; };
+		D3452D0E18E049B3003B1D6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3452D1018E049B3003B1D6E /* tesiwalterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tesiwalterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3452CE018E049B3003B1D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3452CE718E049B3003B1D6E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3452D0118E049B3003B1D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3452D0718E049B3003B1D6E /* Cocoa.framework in Frameworks */,
+				D3452D0618E049B3003B1D6E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3452CDA18E049B3003B1D6E = {
+			isa = PBXGroup;
+			children = (
+				D3452CEC18E049B3003B1D6E /* tesiwalter */,
+				D3452D0A18E049B3003B1D6E /* tesiwalterTests */,
+				D3452CE518E049B3003B1D6E /* Frameworks */,
+				D3452CE418E049B3003B1D6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3452CE418E049B3003B1D6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3452CE318E049B3003B1D6E /* tesiwalter.app */,
+				D3452D0418E049B3003B1D6E /* tesiwalterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3452CE518E049B3003B1D6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3452CE618E049B3003B1D6E /* Cocoa.framework */,
+				D3452D0518E049B3003B1D6E /* XCTest.framework */,
+				D3452CE818E049B3003B1D6E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3452CE818E049B3003B1D6E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3452CE918E049B3003B1D6E /* AppKit.framework */,
+				D3452CEA18E049B3003B1D6E /* CoreData.framework */,
+				D3452CEB18E049B3003B1D6E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D3452CEC18E049B3003B1D6E /* tesiwalter */ = {
+			isa = PBXGroup;
+			children = (
+				D3452CF818E049B3003B1D6E /* TRNAppDelegate.h */,
+				D3452CF918E049B3003B1D6E /* TRNAppDelegate.m */,
+				D3452CFB18E049B3003B1D6E /* MainMenu.xib */,
+				D3452CFE18E049B3003B1D6E /* Images.xcassets */,
+				D3452CED18E049B3003B1D6E /* Supporting Files */,
+			);
+			path = tesiwalter;
+			sourceTree = "<group>";
+		};
+		D3452CED18E049B3003B1D6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3452CEE18E049B3003B1D6E /* tesiwalter-Info.plist */,
+				D3452CEF18E049B3003B1D6E /* InfoPlist.strings */,
+				D3452CF218E049B3003B1D6E /* main.m */,
+				D3452CF418E049B3003B1D6E /* tesiwalter-Prefix.pch */,
+				D3452CF518E049B3003B1D6E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3452D0A18E049B3003B1D6E /* tesiwalterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3452D1018E049B3003B1D6E /* tesiwalterTests.m */,
+				D3452D0B18E049B3003B1D6E /* Supporting Files */,
+			);
+			path = tesiwalterTests;
+			sourceTree = "<group>";
+		};
+		D3452D0B18E049B3003B1D6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3452D0C18E049B3003B1D6E /* tesiwalterTests-Info.plist */,
+				D3452D0D18E049B3003B1D6E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3452CE218E049B3003B1D6E /* tesiwalter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3452D1418E049B3003B1D6E /* Build configuration list for PBXNativeTarget "tesiwalter" */;
+			buildPhases = (
+				D3452CDF18E049B3003B1D6E /* Sources */,
+				D3452CE018E049B3003B1D6E /* Frameworks */,
+				D3452CE118E049B3003B1D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tesiwalter;
+			productName = tesiwalter;
+			productReference = D3452CE318E049B3003B1D6E /* tesiwalter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3452D0318E049B3003B1D6E /* tesiwalterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3452D1718E049B3003B1D6E /* Build configuration list for PBXNativeTarget "tesiwalterTests" */;
+			buildPhases = (
+				D3452D0018E049B3003B1D6E /* Sources */,
+				D3452D0118E049B3003B1D6E /* Frameworks */,
+				D3452D0218E049B3003B1D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3452D0918E049B3003B1D6E /* PBXTargetDependency */,
+			);
+			name = tesiwalterTests;
+			productName = tesiwalterTests;
+			productReference = D3452D0418E049B3003B1D6E /* tesiwalterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3452CDB18E049B3003B1D6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TRN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Chiara Trentin";
+				TargetAttributes = {
+					D3452D0318E049B3003B1D6E = {
+						TestTargetID = D3452CE218E049B3003B1D6E;
+					};
+				};
+			};
+			buildConfigurationList = D3452CDE18E049B3003B1D6E /* Build configuration list for PBXProject "tesiwalter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3452CDA18E049B3003B1D6E;
+			productRefGroup = D3452CE418E049B3003B1D6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3452CE218E049B3003B1D6E /* tesiwalter */,
+				D3452D0318E049B3003B1D6E /* tesiwalterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3452CE118E049B3003B1D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3452CF118E049B3003B1D6E /* InfoPlist.strings in Resources */,
+				D3452CFF18E049B3003B1D6E /* Images.xcassets in Resources */,
+				D3452CF718E049B3003B1D6E /* Credits.rtf in Resources */,
+				D3452CFD18E049B3003B1D6E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3452D0218E049B3003B1D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3452D0F18E049B3003B1D6E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3452CDF18E049B3003B1D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3452CF318E049B3003B1D6E /* main.m in Sources */,
+				D3452CFA18E049B3003B1D6E /* TRNAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3452D0018E049B3003B1D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3452D1118E049B3003B1D6E /* tesiwalterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3452D0918E049B3003B1D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3452CE218E049B3003B1D6E /* tesiwalter */;
+			targetProxy = D3452D0818E049B3003B1D6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3452CEF18E049B3003B1D6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3452CF018E049B3003B1D6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3452CF518E049B3003B1D6E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3452CF618E049B3003B1D6E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D3452CFB18E049B3003B1D6E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3452CFC18E049B3003B1D6E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D3452D0D18E049B3003B1D6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3452D0E18E049B3003B1D6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3452D1218E049B3003B1D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D3452D1318E049B3003B1D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D3452D1518E049B3003B1D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tesiwalter/tesiwalter-Prefix.pch";
+				INFOPLIST_FILE = "tesiwalter/tesiwalter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3452D1618E049B3003B1D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tesiwalter/tesiwalter-Prefix.pch";
+				INFOPLIST_FILE = "tesiwalter/tesiwalter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D3452D1818E049B3003B1D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tesiwalter.app/Contents/MacOS/tesiwalter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tesiwalter/tesiwalter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tesiwalterTests/tesiwalterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D3452D1918E049B3003B1D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tesiwalter.app/Contents/MacOS/tesiwalter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tesiwalter/tesiwalter-Prefix.pch";
+				INFOPLIST_FILE = "tesiwalterTests/tesiwalterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3452CDE18E049B3003B1D6E /* Build configuration list for PBXProject "tesiwalter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3452D1218E049B3003B1D6E /* Debug */,
+				D3452D1318E049B3003B1D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3452D1418E049B3003B1D6E /* Build configuration list for PBXNativeTarget "tesiwalter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3452D1518E049B3003B1D6E /* Debug */,
+				D3452D1618E049B3003B1D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3452D1718E049B3003B1D6E /* Build configuration list for PBXNativeTarget "tesiwalterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3452D1818E049B3003B1D6E /* Debug */,
+				D3452D1918E049B3003B1D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3452CDB18E049B3003B1D6E /* Project object */;
+}
